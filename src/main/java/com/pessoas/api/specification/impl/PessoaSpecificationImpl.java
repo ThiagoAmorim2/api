@@ -1,8 +1,7 @@
 package com.pessoas.api.specification.impl;
 
-import java.util.Collections;
+import java.math.BigInteger;
 import java.util.List;
-
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
@@ -22,10 +21,6 @@ import com.pessoas.api.model.dto.PessoaFiltroDTO;
 import com.pessoas.api.specification.PessoaSpecification;
 import com.pessoas.api.utils.QueryUtils;
 import com.pessoas.api.utils.mapper.PessoaMapper;
-
-import net.bytebuddy.asm.Advice.OffsetMapping.Sort;
-
-import java.math.BigInteger;
 
 public class PessoaSpecificationImpl implements PessoaSpecification{
 
